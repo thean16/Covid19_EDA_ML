@@ -1,0 +1,54 @@
+# Virtual environment
+covid_kernel/
+venv/
+env/
+.venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Data files (large or sensitive)
+*.xlsx
+*.xls
+*.json
+*.parquet
+*.h5
+*.hdf5
+*.pickle
+
+# Allow project data and models
+!covid_19.csv
+!covid_model.pkl
+!covid_scaler.pkl
+!continent_encoder.pkl
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.suo
+*.user
+
+# Environment variables
+.env
+.env.*
+
+# Logs
+*.log
+logs/
