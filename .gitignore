@@ -44,6 +44,7 @@ desktop.ini
 .idea/
 *.suo
 *.user
+tempCodeRunnerFile.py
 
 # Environment variables
 .env
